@@ -28,7 +28,7 @@ I implement it on python 3.6.And the main module I used is Open3d (version 0.12.
    * `showmesh.py` to show 3d object file (.obj /.pcd/.off)
 
 ## How to run
-For testing the performance, I use TUM rgbd dataset. However, The Kinect provides the color and depth images in an un-synchronized way. This means that the set of time stamps from the color images do not intersect with those of the depth images. Therefore, we need some way of associating color images to depth images. For this purpose, you can use `associate.py` script which has been provided by TUM group. And details show [here](https://vision.in.tum.de/data/datasets/rgbd-dataset/tools).
+For testing the performance, I use TUM rgbd dataset (please download dataset firstly). However, The Kinect provides the color and depth images in an un-synchronized way. This means that the set of time stamps from the color images do not intersect with those of the depth images. Therefore, we need some way of associating color images to depth images. For this purpose, you can use `associate.py` script which has been provided by TUM group. And details show [here](https://vision.in.tum.de/data/datasets/rgbd-dataset/tools).
 
 Directly run ```python main.py```, you will get the results in `ouput/`. And results are saved as `.obj` and `.pcd` formats. Besides, the configuration for the experiment will be written into `configuration.json` file.
 
