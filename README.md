@@ -2,7 +2,7 @@
 
 ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-[![GitHub stars](https://img.shields.io/github/stars/mremilien/KinectFusion.svg?style=social)](https://github.com/mremilien/KinectFusion/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/chengkunli96/KinectFusion.svg?style=social)](https://github.com/chengkunli96/KinectFusion/stargazers)
 
 This is an implementation of KinectFusion by python, based on *Newcombe, Richard A., et al.* **KinectFusion: Real-time dense surface mapping and tracking.** This code is just for learning the processing of the KinectFusion, so I do not implement it real time. In the original paper, the author use GPU heavily for accelerating, for python you can use numba model to do this. And more details can be found in my [report](https://github.com/mremilien/KinectFusion/blob/main/docs/report.pdf).
 
